@@ -1,4 +1,4 @@
-public class Computador extends Productos {
+public class Computador extends Producto {
     String cpu;
     int ram;
     int discoDuro;

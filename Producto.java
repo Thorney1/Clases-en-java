@@ -1,9 +1,9 @@
-public class Productos {
+public class Producto {
     int idProducto;
     String marca;
     int precio;
 
-    public Productos(int idProducto, String marca, int precio){
+    public Producto(int idProducto, String marca, int precio){
         this.idProducto = idProducto;
         this.marca = marca;
         this.precio = precio;
@@ -31,4 +31,10 @@ public class Productos {
     public int getPrecio(){
         return precio;
     }
+
+    @Override
+    public String toString() {
+        return "Producto: " + idProducto + ", " + marca + ", " + precio;
+    }
 }
+
