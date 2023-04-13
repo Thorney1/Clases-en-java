@@ -1,15 +1,15 @@
 public class Clientes {
-    string rut;
+    String rut;
     int idCliente;
-    string nombre;
-    string direccion;
-    int celular;
-    string email;
+    String nombre;
+    String direccion;
+    String celular;
+    String email;
 
-    public Clientes(string rut, int idCliente, string nombre, string direccion, int celular, string email){
+    public Clientes(String rut, String nombre, int idCliente, String direccion, String celular, String email){
         this.rut = rut;
-        this.idCliente = idCliente;
         this.nombre = nombre;
+        this.idCliente = idCliente;
         this.direccion = direccion;
         this.celular = celular;
         this.email = email;
