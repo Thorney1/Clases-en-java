@@ -1,5 +1,6 @@
-public class Main{
+public class Main {
     public static void main(String[] args) {
-        // código a ejecutar
+        LectorCSV lectorCSV = new LectorCSV();
+        lectorCSV.lectorCSV(args);
     }
 }

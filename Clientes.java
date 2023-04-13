@@ -1,17 +1,22 @@
 public class Clientes {
-    String rut;
-    int idCliente;
-    String nombre;
-    String direccion;
-    String celular;
-    String email;
+    private String rut;
+    private String idCliente;
+    private int edad;
+    private String nombre;
+    private String direccion;
+    private String email;
 
-    public Clientes(String rut, String nombre, int idCliente, String direccion, String celular, String email){
+    public Clientes(String rut, String idCliente, int edad, String nombre, String direccion, String email) {
         this.rut = rut;
-        this.nombre = nombre;
         this.idCliente = idCliente;
+        this.edad = edad;
+        this.nombre = nombre;
         this.direccion = direccion;
-        this.celular = celular;
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente: " + rut + ", " + idCliente + ", " + nombre + ", " + direccion + ", " + edad + ", " + email;
     }
 }
