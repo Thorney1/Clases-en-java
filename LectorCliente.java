@@ -1,9 +1,9 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-public class LectorCSV {
+public class LectorCliente {
 
-    public void lectorCSV(String[] args) {
+    public void lectorCliente(String[] args) {
         // Ruta del archivo CSV con los datos de los clientes
         String filePath = "clientes.csv";
 
