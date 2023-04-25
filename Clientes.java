@@ -17,6 +17,6 @@ public class Clientes {
 
     @Override
     public String toString() {
-        return "Cliente: " + rut + ", " + idCliente + ", " + nombre + ", " + direccion + ", " + edad + ", " + email;
+        return "RUT: " + rut + ", Cliente: " + idCliente + ", Nombre: " + nombre + ", Direccion: " + direccion + ",Edad: " + edad + ", Email: " + email;
     }
 }
