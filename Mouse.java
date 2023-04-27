@@ -1,6 +1,6 @@
-public class Mouse extends Producto {
+import Models.Producto;
 
-    public Mouse(int idProducto, String marca, int precio){
-        super(idProducto, marca, precio);
-    }
+public class Mouse{
+
+
 }

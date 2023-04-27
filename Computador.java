@@ -1,13 +1,8 @@
-public class Computador extends Producto {
-    String cpu;
-    int ram;
-    int discoDuro;
+import Models.Producto;
 
-    public Computador(int idProducto, String marca, int precio, String cpu, int ram, int discoDuro){
-        super(idProducto, marca, precio);
-        this.cpu = cpu;
-        this.ram = ram;
-        this.discoDuro = discoDuro;
-
-    }
+public class Computador{
+    String Caracteristica1;
+    String Caracteristica2;
+    String Caracteristica3;
 }
+
