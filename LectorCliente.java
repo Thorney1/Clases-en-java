@@ -28,7 +28,7 @@ public class LectorCliente {
                 String[] fields = line.split(",");
 
                 // Creamos un objeto Models.Clientes con los datos de la línea
-                Clientes obj = new Clientes(fields[0], fields[1], Integer.parseInt(fields[2]), fields[3], fields[4], fields[5]);
+                Clientes obj = new Clientes(fields[0], fields[1], fields[2], fields[3], Integer.parseInt(fields[4]), fields[5]);
                 clientes.add(obj);
             }
             // Cerramos el lector de BufferedReader y el archivo

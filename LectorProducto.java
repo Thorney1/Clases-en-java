@@ -25,7 +25,7 @@ public class LectorProducto {
                 String caracteristica3 = fields.length == 6 ? fields[5] : null;
 
                 //Creamos un objeto Models.Clientes con los datos de la línea
-                Producto obj = new Producto(Integer.parseInt(fields[0]), fields[1], Integer.parseInt(fields[2]),caracteristica1,caracteristica2, caracteristica3);
+                Producto obj = new Producto(fields[0], fields[1], Integer.parseInt(fields[2]),caracteristica1,caracteristica2, caracteristica3);
                 productos.add(obj);
 
             }

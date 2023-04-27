@@ -2,14 +2,14 @@ package Models;
 
 
 public class Producto {
-    int idProducto;
+    String idProducto;
     String marca;
     int precioUnitario;
     String caracteristica1;
     String caracteristica2;
     String caracteristica3;
 
-    public Producto(int idProducto, String marca, int precio, String Caracteristica1, String Caracteristica2, String Caracteristica3){
+    public Producto(String idProducto, String marca, int precio, String Caracteristica1, String Caracteristica2, String Caracteristica3){
         this.idProducto = idProducto;
         this.marca = marca;
         this.precioUnitario = precio;
@@ -35,11 +35,11 @@ public class Producto {
     }
 
 
-    public int getIdProducto() {
+    public String getIdProducto() {
         return idProducto;
     }
 
-    public void setIdProducto(int idProducto) {
+    public void setIdProducto(String idProducto) {
         this.idProducto = idProducto;
     }
 

@@ -10,12 +10,12 @@ public class Clientes {
 
 
 
-    public Clientes(String rut, String idCliente, int celular, String nombre, String direccion, String email) {
+    public Clientes(String rut, String nombre, String idCliente, String direccion, int celular,String email) {
         this.rut = rut;
-        this.idCliente = idCliente;
-        this.celular = celular;
         this.nombre = nombre;
+        this.idCliente = idCliente;
         this.direccion = direccion;
+        this.celular = celular;
         this.email = email;
 
     }
@@ -27,12 +27,27 @@ public class Clientes {
         this.rut = rut;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getIdCliente() {
         return idCliente;
     }
 
     public void setIdCliente(String idCliente) {
         this.idCliente = idCliente;
+    }
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
 
     public int getCelular() {
@@ -43,21 +58,6 @@ public class Clientes {
         this.celular = celular;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
 
     public String getEmail() {
         return email;
